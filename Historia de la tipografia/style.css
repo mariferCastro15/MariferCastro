@@ -46,14 +46,14 @@ body::after{
 .grid{
     margin-top: 27px;
 }
-/* RETICULA
+
 .grid {
     background-image: linear-gradient(to bottom, hsla(200, 100%, 50%, 0.3) 1px, transparent 1px);
     background-repeat: repeat;
     background-position: left top;
     background-size: 100% 27px;
 }
-*/
+
 /*/////////////////////////////////H1, H2, H3 y H4///////////////////////////*/
 
 /*ligth*/
