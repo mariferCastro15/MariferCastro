@@ -39,7 +39,7 @@ body::after{
 .Conteiner{
     margin:0px auto;
     width: 1000px;
-    background-image: url("fondo.png");
+    background-image: url("imgs/fondo.png");
     border-left: 0px;
     
 }
