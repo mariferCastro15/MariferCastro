@@ -1,0 +1,277 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Volkhov:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+
+  
+* {	
+    line-height: 1.5;  
+    margin-bottom: 1.5;
+    margin-top: 0;
+}
+    body{
+    text-align: center;
+    font-family: 'Calistoga', cursive;
+    background-image: url("fondo.jpg");
+    background-color: rgb(255, 237, 213);
+    margin: 0px 0px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+body::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 36, 33);
+    opacity: .70;
+    z-index: -1;
+}
+.Conteiner{
+    margin:0px auto;
+    width: 1000px;
+    background-image: url("fondo.png");
+    border-left: 0px;
+    
+}
+.grid{
+    margin-top: 27px;
+}
+/* RETICULA
+.grid {
+    background-image: linear-gradient(to bottom, hsla(200, 100%, 50%, 0.3) 1px, transparent 1px);
+    background-repeat: repeat;
+    background-position: left top;
+    background-size: 100% 27px;
+}
+*/
+/*/////////////////////////////////H1, H2, H3 y H4///////////////////////////*/
+
+/*ligth*/
+h1{
+    margin: 0px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 75.76px; 
+    font-weight: 300;
+    color: rgb(97, 59, 100);
+    margin-top: 0px;
+	margin-bottom: 27px;
+
+    letter-spacing: 3px;
+    font-kerning: normal;
+}
+
+/*regular*/
+
+h6{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(240,230,229);
+    margin: 0px auto;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 40em;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 27px;
+}
+/*regular*/
+h3{
+    margin: 0px auto;
+    font-family: 'Volkhov', serif;
+    font-size: 31.98px; 
+    font-weight: 400;
+    color: rgb(240,230,229);
+    margin-top: 0px;
+	margin-bottom: 27px;
+    max-width:  20em;
+    letter-spacing: 2px;
+    font-kerning: normal;
+   
+}
+
+/*medium*/
+h4{
+    margin: 0px auto;
+    font-family: 'Roboto Slab', serif;
+    font-size: 31.98px;
+    font-weight: 600;
+    max-width:  20em;
+    line-height: 1.5;
+    margin-top: 0px;
+	margin-bottom: 27px;
+    color: rgb(75, 78, 103);
+    margin-left: 50px;
+
+    text-align: left;
+    margin-left: 155px;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 27px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+p + p{
+    text-indent: 1em;
+}
+
+blockquote p{
+    text-indent: -0.5em;
+}
+
+/*ligth slab light*/
+
+h5{
+    margin-top: 0px;
+    margin-bottom: 27px;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+h5 + h5{
+    text-indent: 1em;
+}
+
+blockquote h5{
+    text-indent: -0.5em;
+}
+
+
+
+/*////////////////////////////////////////////*/
+
+/*contenido*/
+
+article {
+    max-width: 45em;
+    margin-left: 150px;
+    
+}
+article p{
+    font-family: 'Roboto Slab', serif;
+
+    margin: 0px auto;
+    font-weight: 400;
+    font-size: 18px;
+    max-width: 40em;
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 27px;
+}
+
+article h5{
+    font-family: 'Roboto Slab', serif;
+    margin: 0px auto;
+    font-weight: 300;
+    font-size: 18px;
+    max-width: 27em;
+    text-align: center;
+    line-height: 1.5;
+    margin-bottom: 27px;
+    margin-left: 10px;
+}
+
+.big-quote {
+    font-family: 'Orbitron', Verdana, sans-serif;
+    font-size: 18px;
+    float: right;
+    margin-left: 0px;
+    text-align: center;
+    max-width: 15em;
+    line-height: 1;
+}
+#comillas{
+text-indent: -0.5em;
+}
+
+img {
+    margin: 0px;
+    margin-bottom: 27px;
+    margin-left: 15px;
+  
+}
+
+#quote {
+    background-color: rgb(118, 117, 106);
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin-bottom: 27px;
+}
+
+#quote {
+    background-color: rgb(48, 51, 68);
+    width: 100%;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    margin-bottom: 27px;
+}
+a{
+    color: rgb(196, 66, 98);
+    font-family: 'Volkhov', serif;
+    font-size: 18px; 
+}
+/*////////////////////////////////////////////*/
+
+
+
+
+/*Hero*/
+
+
+#hero {
+    background-image: url(https://www.rayitasazules.com/wp-content/uploads/2018/02/Tercer-curso-tipografia-digital-gill-sans.jpg);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    z-index: 1;
+}
+  
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(217, 214, 199);
+    opacity: .60;
+    z-index: -1;
+}
+  
+#hero h1{
+    font-size: 75.76px;
+    color: rgb(0, 0, 0);
+    font-family: 'Volkhov', serif;
+    font-weight: 400;
+    margin-top: 0px;
+	margin-bottom: 27px;
+
+    letter-spacing: 3px;
+    font-kerning: normal;
+}
+
+#hero h2{
+    
+    font-size: 56.83px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    max-width:  20em;
+    line-height: 1.5;
+    margin-top: 0px;
+	margin-bottom: 0px;
+    color: rgb(160, 74, 95);
+}
